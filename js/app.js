@@ -62,7 +62,7 @@ function placeCard(place) {
 
           <div class="mb-3">${tags}</div>
 
-          <a href="./${place.categorySlug}/${place.slug}/" class="btn btn-success w-100">
+          <a href="${BASE_PATH}/${place.categorySlug}/${place.slug}/" class="btn btn-success w-100">
             Ver página do local
           </a>
         </div>
