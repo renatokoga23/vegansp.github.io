@@ -9,6 +9,8 @@ const clearFilters = document.getElementById("clearFilters");
 const emptyState = document.getElementById("emptyState");
 const resultCount = document.getElementById("resultCount");
 
+const BASE_PATH = "/vegan-sp";
+
 async function loadPlaces() {
   try {
     const response = await fetch("data/places.json");
