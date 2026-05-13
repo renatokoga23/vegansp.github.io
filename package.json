@@ -1,0 +1,15 @@
+
+
+{
+  "name": "vegan-sp",
+  "version": "1.0.0",
+  "description": "Guia vegano de São Paulo com páginas estáticas geradas por JSON.",
+  "scripts": {
+    "generate": "node generate-pages.js",
+    "start": "npx serve ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
